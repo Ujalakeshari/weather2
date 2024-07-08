@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Weather App Project JavaScript | CodingNepal</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>Weather Forecast</h1>
+    </header>
+    <div class="container">
+      <div class="weather-input">
+        <h3>Enter a City Name</h3>
+        <input class="city-input" type="text" placeholder="E.g., delhi,lucknow,mumbai">
+        <button class="search-btn">Search</button>
+        <div class="separator"></div>
+        <button class="location-btn">Use Current Location</button>
+      </div>
+      <div class="weather-data">
+        <div class="current-weather">
+          <div class="details">
+            <h2>lucknow (1-07-24)</h2>
+            <h6>Temperature: 19°C</h6>
+            <h6>Wind: 4.31 M/S</h6>
+            <h6>Humidity: 80%</h6>
+          </div>
+          <div class="icon">
+            <img src="w5.jpg" alt="weather-icon">
+          </div>
+        </div>
+        <div class="days-forecast">
+          <h2>5-Day Forecast</h2>
+          <ul class="weather-cards">
+            <li class="card">
+              <h3>lucknow (2-07-24)</h3>
+              <img src="w8.png" alt="weather-icon">
+              <h6>Temp: 20°C</h6>
+              <h6>Wind: 5M/S</h6>
+              <h6>Humidity: 85%</h6>
+            </li>
+            <li class="card">
+              <h3>lucknow (3-07-24)</h3>
+              <img src="w7.png" alt="weather-icon">
+              <h6>Temp:21°C</h6>
+              <h6>Wind:4M/S</h6>
+              <h6>Humidity: 80%</h6>
+            </li>
+            <li class="card">
+              <h3>lucknow (4-07-24)</h3>
+              <img src="w10.jpg" alt="weather-icon">
+              <h6>Temp: 17°C</h6>
+              <h6>Wind: 6M/S</h6>
+              <h6>Humidity: 75%</h6>
+            </li>
+            <li class="card">
+              <h3>lucknow (5-07-24)</h3>
+              <img src="w9.png" alt="weather-icon">
+              <h6>Temp: 19°C</h6>
+              <h6>Wind: 4M/S</h6>
+              <h6>Humidity: 68%</h6>
+            </li>
+            <li class="card">
+              <h3>lucknow (6-07-24)</h3>
+              <img src="w6.png" alt="weather-icon">
+              <h6>Temp:30°C</h6>
+              <h6>Wind: 2 M/S</h6>
+              <h6>Humidity: 45%</h6>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+   
+<div id="loader" class="loader"></div>
+
+  </body>
+</html>
+
